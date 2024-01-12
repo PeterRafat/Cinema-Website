@@ -1,0 +1,90 @@
+body{
+    background-color:#b8cded;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style-type: none;
+    background-color: #38444d;
+    margin-top: -1px;
+   
+    
+}
+li a {
+    text-decoration: none;
+    color: white;
+   
+}
+li{
+   display: inline-block;  
+   padding: 14px 16px;
+}
+li a:hover{
+    background-color: #4CAF50;
+    padding: 14px 14px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 15px;
+    background-color: #f9f9f993;
+    min-width: 140px;
+    border-radius: 25px;
+    width: 100px;
+
+
+}
+
+
+b{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+p{
+    font-size: 20px;
+}
+.team_icon{
+    display: inline-flex;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 200px;
+    margin-left: 75px;
+    border: 4px #15739f8b solid;
+
+}
+.text{
+    display: inline-flex;
+    position: absolute;
+    bottom: -45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#peterimg{
+    background-image: url("images/peter.jpeg");
+
+}  
+#peterimg:hover{
+   filter: brightness(80%);
+}
+#petertext{
+    
+   display: inline;
+   margin-left: -125px;
+}
+
+.created_by{
+    background-color: rgb(131, 134, 135);
+    height: 250px; 
+    border: 5px rgba(0, 0, 0, 0.377) solid;
+    border-radius: 60px;
+}
+.Descriptions{
+    background-color: rgb(40, 117, 143);
+    height: 380px; 
+    border: 5px rgba(0, 0, 0, 0.377) solid;
+    border-radius: 60px;
+}

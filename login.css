@@ -1,0 +1,106 @@
+body {
+    background-image: url("https://www.shutterstock.com/image-photo/cinema-theater-auditoriumbusiness-background-260nw-440116117.jpg");
+    width: 100%;
+    background-size: cover;
+    margin: 0%;
+
+}
+
+ul {
+    list-style-type: none;
+    background-color: #3c02015b;
+    margin-top: -7px;
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+li {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #5F6F86;
+    padding: 14px 14px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.all_login {
+    position: absolute;
+    left: 500px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 150px;
+    border: 3px rgb(173, 129, 213) solid;
+    border-radius: 15px;
+    width: 35%;
+    background-color: rgba(0, 255, 255, 0.502);
+    transform: scale(.8);
+    transition: all .5s ease-out;
+}
+.all_login:hover{
+    border: 2px #146C94 solid ;
+    transform: scale(1.2);
+}
+
+.text {
+    font-size: 18px;
+    position: absolute;
+    left: 50px;
+}
+
+#email,
+#password {
+    width: 450px;
+    height: 20px;
+    position: absolute;
+    left: 50px;
+    background: #f1f1f1;
+    outline: none;
+    border: 2px #5F6F86 solid;
+    border-radius: 10px;
+    transform: scale(.9);
+    transition: all .4s ease-out;
+}
+#email:hover,
+#password:hover{
+    border: 2px #2ec48d solid ;
+    transform: scale(1.1);
+
+}
+
+.login_button {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #6e83a1;
+    font-size: 18px;
+    border-radius: 10px;
+
+
+}
+
+.login_button:hover {
+    background-color: #5F6F86;
+}
+
+.login {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ddf0e9;
+    padding-bottom: 1px;
+
+}
+
+.login a:hover {
+    color: rgb(161, 86, 231);
+}

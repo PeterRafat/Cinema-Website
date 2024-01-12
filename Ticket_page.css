@@ -1,0 +1,96 @@
+body {
+    margin: 0%;
+    background-color: #19a7ce60;
+    
+}
+
+ul {
+    list-style-type: none;
+    background-color: #19A7CE;
+    margin-top: -7px;
+
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+li {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #146C94;
+    padding: 14px 14px;
+}
+
+
+.ticket{
+   margin-left: 500px;
+   margin-top: 100px;
+   font-size: 20px;
+   border: 2px #19A7CE solid;
+   border-radius: 30px;
+   width: 435px;
+   height: 380px;
+   padding-left: 35px;
+   background-color: #AFD3E2;
+   transform: scale(.8);
+   transition: all .5s ease-out;
+
+}
+.ticket:hover{
+    border: 2px #146C94 solid ;
+    transform: scale(1.2);
+
+}
+h2{
+    margin-left: 145px;    
+}
+.Recording-data1 {
+    display:inline-block;
+    line-height: 35px; 
+}
+
+:placeholder-shown{
+    padding-left: 15px;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border-radius: 10px;
+    background: #f1f1f1;
+    outline: none;
+    border: 2px #5F6F86 solid;
+    border-radius: 10px;
+}
+input:hover{
+    border: 2px #2ec48d solid ;
+
+}
+.Buy-it{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 180px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px; 
+    border: none;
+    cursor: pointer;
+    background-color: #19A7CE;
+    color: white;
+
+}
+button:hover{
+    
+    background-color: #146C94 ;
+}
+

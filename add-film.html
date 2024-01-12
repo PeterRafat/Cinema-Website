@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>add-film</title>
+    <link rel="stylesheet" href="add-film.css">
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li> <a href="add-film.html">Add-film</a></li>
+            <li> <a href="add-film.html">Delete-film</a></li>
+        </ul>
+
+    </div>
+
+    <div class="dropdown">
+
+        <button id="myBtn" class="dropbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="login.html">login</a>
+            <a href="Register.html">Register</a>
+            <a href="add-film.html">Add-film</a>
+        </div>
+    </div>
+
+    <div class="add">
+        <h3>Add-Film</h3>
+        <form>
+            <label for="type" class="text"><b>Type:</b></label><br>
+            <input type="text" placeholder="type-film" id="infilm" name="type"><br><br>
+
+            <label for="Release-year" class="text"><b>Release year:</b></label><br>
+            <input type="text" placeholder="2018" id="infilm" name="Release-year"><br><br>
+
+            <label for="Running-time" class="text"><b>Running time:</b></label><br>
+            <input type="text" placeholder="2h 23m" id="infilm" name="Running-time"><br><br>
+
+            <label for="Language" class="text"><b>Language: </b></label><br>
+            <input type="text" placeholder="English" id="infilm" name="Language "><br><br>
+
+            <label for="Rate" class="text"><b>Rate:</b></label><br>
+            <input type="text" placeholder="8/10" id="infilm" name="Rate"><br><br>
+
+            <label for="myfile" class="text"><b>Select a file:</b></label><br>
+            <input type="file" id="infilm" name="myfile"><br><br>
+            <input type="submit" value="add-film" class="submit">
+
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
